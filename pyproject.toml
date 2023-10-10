@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ngos"
+version = "0.1.0"
+description = ""
+authors = ["Jay Butera <buterajay@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.1"
+bs4 = "^0.0.1"
+google = "^3.0.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
